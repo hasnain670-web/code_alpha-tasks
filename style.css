@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url('backgorund.jpg') center center/cover no-repeat fixed;
+    background: url('backgorund.jpg') center center/cover no-repeat fixed;
     color: #fff;
     line-height: 1.6;
 }
