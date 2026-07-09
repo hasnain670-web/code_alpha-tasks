@@ -12,7 +12,7 @@
 }
 
 body {
-    background: url('backgorund.jpg');
+    background-image: url('backgorund.jpg') center center/cover no-repeat fixed;
     color: #fff;
     line-height: 1.6;
 }
@@ -127,6 +127,8 @@ nav a:hover {
     text-align: center;
 }
 
+
+
 .image img {
     width: 350px;
     height: 350px;
@@ -211,7 +213,7 @@ nav a:hover {
 /* ================= SKILLS ================= */
 
 #skills {
-    background: url('skill.avif') center center/cover no-repeat;
+    background: url('skill.avif') center center/cover no-repeat fixed;
     opacity: 0.8;
 }
 
@@ -242,7 +244,7 @@ nav a:hover {
 
 /* ================= PROJECTS ================= */
 #projects {
-    background: url('project.avif') center center/cover no-repeat;
+    background: url('project.avif') center center/cover no-repeat fixed;
     /* min-height: 120vh; */
     opacity: 0.9;
 }
@@ -286,7 +288,7 @@ nav a:hover {
 
 /* ================= CONTACT ================= */
 #contact {
-    background: url('contact.avif') center center/cover no-repeat;
+    background: url('contact.avif') center center/cover no-repeat fixed;
     opacity: 0.9;
 }
 
@@ -382,6 +384,16 @@ footer p {
 
     .content h3 {
         font-size: 22px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    body {
+
+        background-attachment: scroll;
+
     }
 
 }
